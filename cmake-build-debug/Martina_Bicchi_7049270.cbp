@@ -80,6 +80,24 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/Martina/Desktop/uni/programmazione/Martina_Bicchi_7049270/Note.cpp">
+			<Option target="Martina_Bicchi_7049270"/>
+		</Unit>
+		<Unit filename="C:/Users/Martina/Desktop/uni/programmazione/Martina_Bicchi_7049270/Note.h">
+			<Option target="Martina_Bicchi_7049270"/>
+		</Unit>
+		<Unit filename="C:/Users/Martina/Desktop/uni/programmazione/Martina_Bicchi_7049270/NotesCollection.cpp">
+			<Option target="Martina_Bicchi_7049270"/>
+		</Unit>
+		<Unit filename="C:/Users/Martina/Desktop/uni/programmazione/Martina_Bicchi_7049270/NotesCollection.h">
+			<Option target="Martina_Bicchi_7049270"/>
+		</Unit>
+		<Unit filename="C:/Users/Martina/Desktop/uni/programmazione/Martina_Bicchi_7049270/NotesCollectionSpecific.cpp">
+			<Option target="Martina_Bicchi_7049270"/>
+		</Unit>
+		<Unit filename="C:/Users/Martina/Desktop/uni/programmazione/Martina_Bicchi_7049270/NotesCollectionSpecific.h">
+			<Option target="Martina_Bicchi_7049270"/>
+		</Unit>
 		<Unit filename="C:/Users/Martina/Desktop/uni/programmazione/Martina_Bicchi_7049270/main.cpp">
 			<Option target="Martina_Bicchi_7049270"/>
 		</Unit>
