@@ -7,12 +7,18 @@
 #include "map"
 #include "algorithm"
 #include "Note.h"
+#include "Subject.h"
 
-class NotesCollection {
+class NotesCollection: public subject {
 public:
     NotesCollection(std::string nome): name(nome){};
+    virtual ~NotesCollection(){};
     virtual void addNote(Note* note)=0;
     virtual void removeNote(const std::string& n)=0;
+    virtual int NotesNumber()=0;
+    virtual void subscribe(Observer* onew);
+    virtual void unsubsribe(Observer* old);
+    virtual void notify();
 
     const std::string &getName() const {
         return name;
@@ -28,7 +34,7 @@ public:
         NotesCollection::notes = notes;
     }
 
-private:
+protected:
     std::string name;
     std::map<std::string,Note*> notes;
 };

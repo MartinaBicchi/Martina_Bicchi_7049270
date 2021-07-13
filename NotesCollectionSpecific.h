@@ -7,10 +7,13 @@
 #include "NotesCollection.h"
 #include "Note.h"
 
-class NotesCollectionSpecific {
+class NotesCollectionSpecific: public NotesCollection {
 public:
-private:
-
+    explicit NotesCollectionSpecific(const std::string& name):NotesCollection(name){};
+    ~NotesCollectionSpecific() override=default;
+    void addNote(Note* note) override;
+    void removeNote(const std::string& n) override;
+    int NotesNumber() override;
 };
 
 

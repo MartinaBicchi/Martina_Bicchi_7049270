@@ -130,17 +130,44 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named Martina_Bicchi_7049270
+# Target rules for targets named untitled
 
 # Build rule for target.
-Martina_Bicchi_7049270: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Martina_Bicchi_7049270
-.PHONY : Martina_Bicchi_7049270
+untitled: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 untitled
+.PHONY : untitled
 
 # fast build rule for target.
-Martina_Bicchi_7049270/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Martina_Bicchi_7049270.dir\build.make CMakeFiles/Martina_Bicchi_7049270.dir/build
-.PHONY : Martina_Bicchi_7049270/fast
+untitled/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/build
+.PHONY : untitled/fast
+
+ConcreteObserver.obj: ConcreteObserver.cpp.obj
+
+.PHONY : ConcreteObserver.obj
+
+# target to build an object file
+ConcreteObserver.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/ConcreteObserver.cpp.obj
+.PHONY : ConcreteObserver.cpp.obj
+
+ConcreteObserver.i: ConcreteObserver.cpp.i
+
+.PHONY : ConcreteObserver.i
+
+# target to preprocess a source file
+ConcreteObserver.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/ConcreteObserver.cpp.i
+.PHONY : ConcreteObserver.cpp.i
+
+ConcreteObserver.s: ConcreteObserver.cpp.s
+
+.PHONY : ConcreteObserver.s
+
+# target to generate assembly for a file
+ConcreteObserver.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/ConcreteObserver.cpp.s
+.PHONY : ConcreteObserver.cpp.s
 
 Note.obj: Note.cpp.obj
 
@@ -148,7 +175,7 @@ Note.obj: Note.cpp.obj
 
 # target to build an object file
 Note.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Martina_Bicchi_7049270.dir\build.make CMakeFiles/Martina_Bicchi_7049270.dir/Note.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/Note.cpp.obj
 .PHONY : Note.cpp.obj
 
 Note.i: Note.cpp.i
@@ -157,7 +184,7 @@ Note.i: Note.cpp.i
 
 # target to preprocess a source file
 Note.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Martina_Bicchi_7049270.dir\build.make CMakeFiles/Martina_Bicchi_7049270.dir/Note.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/Note.cpp.i
 .PHONY : Note.cpp.i
 
 Note.s: Note.cpp.s
@@ -166,7 +193,7 @@ Note.s: Note.cpp.s
 
 # target to generate assembly for a file
 Note.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Martina_Bicchi_7049270.dir\build.make CMakeFiles/Martina_Bicchi_7049270.dir/Note.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/Note.cpp.s
 .PHONY : Note.cpp.s
 
 NotesCollection.obj: NotesCollection.cpp.obj
@@ -175,7 +202,7 @@ NotesCollection.obj: NotesCollection.cpp.obj
 
 # target to build an object file
 NotesCollection.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Martina_Bicchi_7049270.dir\build.make CMakeFiles/Martina_Bicchi_7049270.dir/NotesCollection.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/NotesCollection.cpp.obj
 .PHONY : NotesCollection.cpp.obj
 
 NotesCollection.i: NotesCollection.cpp.i
@@ -184,7 +211,7 @@ NotesCollection.i: NotesCollection.cpp.i
 
 # target to preprocess a source file
 NotesCollection.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Martina_Bicchi_7049270.dir\build.make CMakeFiles/Martina_Bicchi_7049270.dir/NotesCollection.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/NotesCollection.cpp.i
 .PHONY : NotesCollection.cpp.i
 
 NotesCollection.s: NotesCollection.cpp.s
@@ -193,8 +220,35 @@ NotesCollection.s: NotesCollection.cpp.s
 
 # target to generate assembly for a file
 NotesCollection.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Martina_Bicchi_7049270.dir\build.make CMakeFiles/Martina_Bicchi_7049270.dir/NotesCollection.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/NotesCollection.cpp.s
 .PHONY : NotesCollection.cpp.s
+
+NotesCollectionImportant.obj: NotesCollectionImportant.cpp.obj
+
+.PHONY : NotesCollectionImportant.obj
+
+# target to build an object file
+NotesCollectionImportant.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/NotesCollectionImportant.cpp.obj
+.PHONY : NotesCollectionImportant.cpp.obj
+
+NotesCollectionImportant.i: NotesCollectionImportant.cpp.i
+
+.PHONY : NotesCollectionImportant.i
+
+# target to preprocess a source file
+NotesCollectionImportant.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/NotesCollectionImportant.cpp.i
+.PHONY : NotesCollectionImportant.cpp.i
+
+NotesCollectionImportant.s: NotesCollectionImportant.cpp.s
+
+.PHONY : NotesCollectionImportant.s
+
+# target to generate assembly for a file
+NotesCollectionImportant.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/NotesCollectionImportant.cpp.s
+.PHONY : NotesCollectionImportant.cpp.s
 
 NotesCollectionSpecific.obj: NotesCollectionSpecific.cpp.obj
 
@@ -202,7 +256,7 @@ NotesCollectionSpecific.obj: NotesCollectionSpecific.cpp.obj
 
 # target to build an object file
 NotesCollectionSpecific.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Martina_Bicchi_7049270.dir\build.make CMakeFiles/Martina_Bicchi_7049270.dir/NotesCollectionSpecific.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/NotesCollectionSpecific.cpp.obj
 .PHONY : NotesCollectionSpecific.cpp.obj
 
 NotesCollectionSpecific.i: NotesCollectionSpecific.cpp.i
@@ -211,7 +265,7 @@ NotesCollectionSpecific.i: NotesCollectionSpecific.cpp.i
 
 # target to preprocess a source file
 NotesCollectionSpecific.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Martina_Bicchi_7049270.dir\build.make CMakeFiles/Martina_Bicchi_7049270.dir/NotesCollectionSpecific.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/NotesCollectionSpecific.cpp.i
 .PHONY : NotesCollectionSpecific.cpp.i
 
 NotesCollectionSpecific.s: NotesCollectionSpecific.cpp.s
@@ -220,7 +274,7 @@ NotesCollectionSpecific.s: NotesCollectionSpecific.cpp.s
 
 # target to generate assembly for a file
 NotesCollectionSpecific.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Martina_Bicchi_7049270.dir\build.make CMakeFiles/Martina_Bicchi_7049270.dir/NotesCollectionSpecific.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/NotesCollectionSpecific.cpp.s
 .PHONY : NotesCollectionSpecific.cpp.s
 
 main.obj: main.cpp.obj
@@ -229,7 +283,7 @@ main.obj: main.cpp.obj
 
 # target to build an object file
 main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Martina_Bicchi_7049270.dir\build.make CMakeFiles/Martina_Bicchi_7049270.dir/main.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/main.cpp.obj
 .PHONY : main.cpp.obj
 
 main.i: main.cpp.i
@@ -238,7 +292,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Martina_Bicchi_7049270.dir\build.make CMakeFiles/Martina_Bicchi_7049270.dir/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -247,7 +301,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Martina_Bicchi_7049270.dir\build.make CMakeFiles/Martina_Bicchi_7049270.dir/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -258,13 +312,19 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... Martina_Bicchi_7049270
+	@echo ... untitled
+	@echo ... ConcreteObserver.obj
+	@echo ... ConcreteObserver.i
+	@echo ... ConcreteObserver.s
 	@echo ... Note.obj
 	@echo ... Note.i
 	@echo ... Note.s
 	@echo ... NotesCollection.obj
 	@echo ... NotesCollection.i
 	@echo ... NotesCollection.s
+	@echo ... NotesCollectionImportant.obj
+	@echo ... NotesCollectionImportant.i
+	@echo ... NotesCollectionImportant.s
 	@echo ... NotesCollectionSpecific.obj
 	@echo ... NotesCollectionSpecific.i
 	@echo ... NotesCollectionSpecific.s

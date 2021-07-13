@@ -25,6 +25,6 @@ Note& Note::operator=(const Note& original){
             this->isImportant = original.isImportant1();
             this->locked = original.isLocked();
         }
-        return *this;
     }
+    return *this;
 }

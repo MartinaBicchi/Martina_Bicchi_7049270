@@ -3,4 +3,4 @@ project(Martina_Bicchi_7049270)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(Martina_Bicchi_7049270 main.cpp Note.cpp Note.h NotesCollection.cpp NotesCollection.h NotesCollectionSpecific.cpp NotesCollectionSpecific.h)
+add_executable(untitled main.cpp ConcreteObserver.cpp ConcreteObserver.h Observer.h NotesCollection.cpp NotesCollection.h NotesCollectionImportant.cpp NotesCollectionImportant.h NotesCollectionSpecific.cpp NotesCollectionSpecific.h Note.cpp Note.h Subject.h)

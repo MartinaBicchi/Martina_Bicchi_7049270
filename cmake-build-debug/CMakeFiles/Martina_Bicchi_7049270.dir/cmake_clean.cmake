@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/Martina_Bicchi_7049270.dir/ConcreteObserver.cpp.obj"
   "CMakeFiles/Martina_Bicchi_7049270.dir/Note.cpp.obj"
   "CMakeFiles/Martina_Bicchi_7049270.dir/NotesCollection.cpp.obj"
+  "CMakeFiles/Martina_Bicchi_7049270.dir/NotesCollectionImportant.cpp.obj"
   "CMakeFiles/Martina_Bicchi_7049270.dir/NotesCollectionSpecific.cpp.obj"
   "CMakeFiles/Martina_Bicchi_7049270.dir/main.cpp.obj"
   "Martina_Bicchi_7049270.exe"

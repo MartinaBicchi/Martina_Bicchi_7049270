@@ -3,3 +3,16 @@
 //
 
 #include "NotesCollection.h"
+
+void NotesCollection::subscribe(Observer* onew){
+    observers.push_back(onew);
+}
+void NotesCollection::unsubsribe(Observer* old){
+    observers.remove(old);
+}
+
+void NotesCollection::notify(){
+   for(auto itr:observers) {
+       itr->update();
+   }
+}
