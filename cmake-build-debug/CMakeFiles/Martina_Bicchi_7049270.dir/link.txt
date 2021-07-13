@@ -1,0 +1,3 @@
+"C:\Users\Martina\Desktop\uni\programmazione\info\CLion 2020.2.4\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\Martina_Bicchi_7049270.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\Martina_Bicchi_7049270.dir/objects.a @CMakeFiles\Martina_Bicchi_7049270.dir\objects1.rsp
+C:\MinGW\bin\g++.exe -g   -Wl,--whole-archive CMakeFiles\Martina_Bicchi_7049270.dir/objects.a -Wl,--no-whole-archive  -o Martina_Bicchi_7049270.exe -Wl,--out-implib,libMartina_Bicchi_7049270.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Martina_Bicchi_7049270.dir\linklibs.rsp
