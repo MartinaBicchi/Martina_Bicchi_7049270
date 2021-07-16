@@ -75,6 +75,30 @@ CMAKE_BINARY_DIR = C:\Users\Martina\Desktop\uni\programmazione\Martina_Bicchi_70
 #=============================================================================
 # Targets provided globally by CMake.
 
+# Special rule for the target install/local
+install/local: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
+	"C:\Users\Martina\Desktop\uni\programmazione\info\CLion 2020.2.4\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+.PHONY : install/local
+
+# Special rule for the target install/local
+install/local/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
+	"C:\Users\Martina\Desktop\uni\programmazione\info\CLion 2020.2.4\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+.PHONY : install/local/fast
+
+# Special rule for the target install
+install: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
+	"C:\Users\Martina\Desktop\uni\programmazione\info\CLion 2020.2.4\bin\cmake\win\bin\cmake.exe" -P cmake_install.cmake
+.PHONY : install
+
+# Special rule for the target install
+install/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
+	"C:\Users\Martina\Desktop\uni\programmazione\info\CLion 2020.2.4\bin\cmake\win\bin\cmake.exe" -P cmake_install.cmake
+.PHONY : install/fast
+
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
@@ -86,6 +110,16 @@ edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
 
+# Special rule for the target list_install_components
+list_install_components:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\""
+.PHONY : list_install_components
+
+# Special rule for the target list_install_components
+list_install_components/fast: list_install_components
+
+.PHONY : list_install_components/fast
+
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
@@ -96,6 +130,18 @@ rebuild_cache:
 rebuild_cache/fast: rebuild_cache
 
 .PHONY : rebuild_cache/fast
+
+# Special rule for the target install/strip
+install/strip: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
+	"C:\Users\Martina\Desktop\uni\programmazione\info\CLion 2020.2.4\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+.PHONY : install/strip
+
+# Special rule for the target install/strip
+install/strip/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
+	"C:\Users\Martina\Desktop\uni\programmazione\info\CLion 2020.2.4\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+.PHONY : install/strip/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -130,17 +176,69 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named untitled
+# Target rules for targets named Martina_Bicchi_7049270
 
 # Build rule for target.
-untitled: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 untitled
-.PHONY : untitled
+Martina_Bicchi_7049270: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Martina_Bicchi_7049270
+.PHONY : Martina_Bicchi_7049270
 
 # fast build rule for target.
-untitled/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/build
-.PHONY : untitled/fast
+Martina_Bicchi_7049270/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Martina_Bicchi_7049270.dir\build.make CMakeFiles/Martina_Bicchi_7049270.dir/build
+.PHONY : Martina_Bicchi_7049270/fast
+
+#=============================================================================
+# Target rules for targets named core
+
+# Build rule for target.
+core: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 core
+.PHONY : core
+
+# fast build rule for target.
+core/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\core.dir\build.make CMakeFiles/core.dir/build
+.PHONY : core/fast
+
+#=============================================================================
+# Target rules for targets named runNoteTest
+
+# Build rule for target.
+runNoteTest: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 runNoteTest
+.PHONY : runNoteTest
+
+# fast build rule for target.
+runNoteTest/fast:
+	$(MAKE) $(MAKESILENT) -f test\CMakeFiles\runNoteTest.dir\build.make test/CMakeFiles/runNoteTest.dir/build
+.PHONY : runNoteTest/fast
+
+#=============================================================================
+# Target rules for targets named gtest
+
+# Build rule for target.
+gtest: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 gtest
+.PHONY : gtest
+
+# fast build rule for target.
+gtest/fast:
+	$(MAKE) $(MAKESILENT) -f test\lib\googletest-master\googletest\CMakeFiles\gtest.dir\build.make test/lib/googletest-master/googletest/CMakeFiles/gtest.dir/build
+.PHONY : gtest/fast
+
+#=============================================================================
+# Target rules for targets named gtest_main
+
+# Build rule for target.
+gtest_main: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 gtest_main
+.PHONY : gtest_main
+
+# fast build rule for target.
+gtest_main/fast:
+	$(MAKE) $(MAKESILENT) -f test\lib\googletest-master\googletest\CMakeFiles\gtest_main.dir\build.make test/lib/googletest-master/googletest/CMakeFiles/gtest_main.dir/build
+.PHONY : gtest_main/fast
 
 ConcreteObserver.obj: ConcreteObserver.cpp.obj
 
@@ -148,7 +246,7 @@ ConcreteObserver.obj: ConcreteObserver.cpp.obj
 
 # target to build an object file
 ConcreteObserver.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/ConcreteObserver.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\core.dir\build.make CMakeFiles/core.dir/ConcreteObserver.cpp.obj
 .PHONY : ConcreteObserver.cpp.obj
 
 ConcreteObserver.i: ConcreteObserver.cpp.i
@@ -157,7 +255,7 @@ ConcreteObserver.i: ConcreteObserver.cpp.i
 
 # target to preprocess a source file
 ConcreteObserver.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/ConcreteObserver.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\core.dir\build.make CMakeFiles/core.dir/ConcreteObserver.cpp.i
 .PHONY : ConcreteObserver.cpp.i
 
 ConcreteObserver.s: ConcreteObserver.cpp.s
@@ -166,7 +264,7 @@ ConcreteObserver.s: ConcreteObserver.cpp.s
 
 # target to generate assembly for a file
 ConcreteObserver.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/ConcreteObserver.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\core.dir\build.make CMakeFiles/core.dir/ConcreteObserver.cpp.s
 .PHONY : ConcreteObserver.cpp.s
 
 Note.obj: Note.cpp.obj
@@ -175,7 +273,7 @@ Note.obj: Note.cpp.obj
 
 # target to build an object file
 Note.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/Note.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\core.dir\build.make CMakeFiles/core.dir/Note.cpp.obj
 .PHONY : Note.cpp.obj
 
 Note.i: Note.cpp.i
@@ -184,7 +282,7 @@ Note.i: Note.cpp.i
 
 # target to preprocess a source file
 Note.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/Note.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\core.dir\build.make CMakeFiles/core.dir/Note.cpp.i
 .PHONY : Note.cpp.i
 
 Note.s: Note.cpp.s
@@ -193,7 +291,7 @@ Note.s: Note.cpp.s
 
 # target to generate assembly for a file
 Note.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/Note.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\core.dir\build.make CMakeFiles/core.dir/Note.cpp.s
 .PHONY : Note.cpp.s
 
 NotesCollection.obj: NotesCollection.cpp.obj
@@ -202,7 +300,7 @@ NotesCollection.obj: NotesCollection.cpp.obj
 
 # target to build an object file
 NotesCollection.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/NotesCollection.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\core.dir\build.make CMakeFiles/core.dir/NotesCollection.cpp.obj
 .PHONY : NotesCollection.cpp.obj
 
 NotesCollection.i: NotesCollection.cpp.i
@@ -211,7 +309,7 @@ NotesCollection.i: NotesCollection.cpp.i
 
 # target to preprocess a source file
 NotesCollection.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/NotesCollection.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\core.dir\build.make CMakeFiles/core.dir/NotesCollection.cpp.i
 .PHONY : NotesCollection.cpp.i
 
 NotesCollection.s: NotesCollection.cpp.s
@@ -220,7 +318,7 @@ NotesCollection.s: NotesCollection.cpp.s
 
 # target to generate assembly for a file
 NotesCollection.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/NotesCollection.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\core.dir\build.make CMakeFiles/core.dir/NotesCollection.cpp.s
 .PHONY : NotesCollection.cpp.s
 
 NotesCollectionImportant.obj: NotesCollectionImportant.cpp.obj
@@ -229,7 +327,7 @@ NotesCollectionImportant.obj: NotesCollectionImportant.cpp.obj
 
 # target to build an object file
 NotesCollectionImportant.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/NotesCollectionImportant.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\core.dir\build.make CMakeFiles/core.dir/NotesCollectionImportant.cpp.obj
 .PHONY : NotesCollectionImportant.cpp.obj
 
 NotesCollectionImportant.i: NotesCollectionImportant.cpp.i
@@ -238,7 +336,7 @@ NotesCollectionImportant.i: NotesCollectionImportant.cpp.i
 
 # target to preprocess a source file
 NotesCollectionImportant.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/NotesCollectionImportant.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\core.dir\build.make CMakeFiles/core.dir/NotesCollectionImportant.cpp.i
 .PHONY : NotesCollectionImportant.cpp.i
 
 NotesCollectionImportant.s: NotesCollectionImportant.cpp.s
@@ -247,7 +345,7 @@ NotesCollectionImportant.s: NotesCollectionImportant.cpp.s
 
 # target to generate assembly for a file
 NotesCollectionImportant.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/NotesCollectionImportant.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\core.dir\build.make CMakeFiles/core.dir/NotesCollectionImportant.cpp.s
 .PHONY : NotesCollectionImportant.cpp.s
 
 NotesCollectionSpecific.obj: NotesCollectionSpecific.cpp.obj
@@ -256,7 +354,7 @@ NotesCollectionSpecific.obj: NotesCollectionSpecific.cpp.obj
 
 # target to build an object file
 NotesCollectionSpecific.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/NotesCollectionSpecific.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\core.dir\build.make CMakeFiles/core.dir/NotesCollectionSpecific.cpp.obj
 .PHONY : NotesCollectionSpecific.cpp.obj
 
 NotesCollectionSpecific.i: NotesCollectionSpecific.cpp.i
@@ -265,7 +363,7 @@ NotesCollectionSpecific.i: NotesCollectionSpecific.cpp.i
 
 # target to preprocess a source file
 NotesCollectionSpecific.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/NotesCollectionSpecific.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\core.dir\build.make CMakeFiles/core.dir/NotesCollectionSpecific.cpp.i
 .PHONY : NotesCollectionSpecific.cpp.i
 
 NotesCollectionSpecific.s: NotesCollectionSpecific.cpp.s
@@ -274,7 +372,7 @@ NotesCollectionSpecific.s: NotesCollectionSpecific.cpp.s
 
 # target to generate assembly for a file
 NotesCollectionSpecific.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/NotesCollectionSpecific.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\core.dir\build.make CMakeFiles/core.dir/NotesCollectionSpecific.cpp.s
 .PHONY : NotesCollectionSpecific.cpp.s
 
 main.obj: main.cpp.obj
@@ -283,7 +381,7 @@ main.obj: main.cpp.obj
 
 # target to build an object file
 main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/main.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Martina_Bicchi_7049270.dir\build.make CMakeFiles/Martina_Bicchi_7049270.dir/main.cpp.obj
 .PHONY : main.cpp.obj
 
 main.i: main.cpp.i
@@ -292,7 +390,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Martina_Bicchi_7049270.dir\build.make CMakeFiles/Martina_Bicchi_7049270.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -301,7 +399,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Martina_Bicchi_7049270.dir\build.make CMakeFiles/Martina_Bicchi_7049270.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -311,8 +409,16 @@ help:
 	@echo ... clean
 	@echo ... depend
 	@echo ... edit_cache
+	@echo ... install
+	@echo ... install/local
+	@echo ... install/strip
+	@echo ... list_install_components
 	@echo ... rebuild_cache
-	@echo ... untitled
+	@echo ... Martina_Bicchi_7049270
+	@echo ... core
+	@echo ... gtest
+	@echo ... gtest_main
+	@echo ... runNoteTest
 	@echo ... ConcreteObserver.obj
 	@echo ... ConcreteObserver.i
 	@echo ... ConcreteObserver.s

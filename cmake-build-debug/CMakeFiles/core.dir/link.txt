@@ -1,0 +1,2 @@
+C:\MinGW\bin\ar.exe qc libcore.a  CMakeFiles/core.dir/Note.cpp.obj CMakeFiles/core.dir/NotesCollectionSpecific.cpp.obj CMakeFiles/core.dir/NotesCollectionImportant.cpp.obj CMakeFiles/core.dir/NotesCollection.cpp.obj CMakeFiles/core.dir/ConcreteObserver.cpp.obj
+C:\MinGW\bin\ranlib.exe libcore.a

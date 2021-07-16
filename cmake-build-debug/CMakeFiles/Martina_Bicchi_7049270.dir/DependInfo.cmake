@@ -4,11 +4,6 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/Martina/Desktop/uni/programmazione/Martina_Bicchi_7049270/ConcreteObserver.cpp" "C:/Users/Martina/Desktop/uni/programmazione/Martina_Bicchi_7049270/cmake-build-debug/CMakeFiles/Martina_Bicchi_7049270.dir/ConcreteObserver.cpp.obj"
-  "C:/Users/Martina/Desktop/uni/programmazione/Martina_Bicchi_7049270/Note.cpp" "C:/Users/Martina/Desktop/uni/programmazione/Martina_Bicchi_7049270/cmake-build-debug/CMakeFiles/Martina_Bicchi_7049270.dir/Note.cpp.obj"
-  "C:/Users/Martina/Desktop/uni/programmazione/Martina_Bicchi_7049270/NotesCollection.cpp" "C:/Users/Martina/Desktop/uni/programmazione/Martina_Bicchi_7049270/cmake-build-debug/CMakeFiles/Martina_Bicchi_7049270.dir/NotesCollection.cpp.obj"
-  "C:/Users/Martina/Desktop/uni/programmazione/Martina_Bicchi_7049270/NotesCollectionImportant.cpp" "C:/Users/Martina/Desktop/uni/programmazione/Martina_Bicchi_7049270/cmake-build-debug/CMakeFiles/Martina_Bicchi_7049270.dir/NotesCollectionImportant.cpp.obj"
-  "C:/Users/Martina/Desktop/uni/programmazione/Martina_Bicchi_7049270/NotesCollectionSpecific.cpp" "C:/Users/Martina/Desktop/uni/programmazione/Martina_Bicchi_7049270/cmake-build-debug/CMakeFiles/Martina_Bicchi_7049270.dir/NotesCollectionSpecific.cpp.obj"
   "C:/Users/Martina/Desktop/uni/programmazione/Martina_Bicchi_7049270/main.cpp" "C:/Users/Martina/Desktop/uni/programmazione/Martina_Bicchi_7049270/cmake-build-debug/CMakeFiles/Martina_Bicchi_7049270.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

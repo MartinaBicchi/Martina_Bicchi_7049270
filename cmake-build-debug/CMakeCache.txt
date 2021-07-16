@@ -216,16 +216,16 @@ CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 CMAKE_PROJECT_NAME:STATIC=Martina_Bicchi_7049270
 
 //Value Computed by CMake
-CMAKE_PROJECT_VERSION:STATIC=1.11.0
+CMAKE_PROJECT_VERSION:STATIC=0.1
 
 //Value Computed by CMake
-CMAKE_PROJECT_VERSION_MAJOR:STATIC=1
+CMAKE_PROJECT_VERSION_MAJOR:STATIC=0
 
 //Value Computed by CMake
-CMAKE_PROJECT_VERSION_MINOR:STATIC=11
+CMAKE_PROJECT_VERSION_MINOR:STATIC=1
 
 //Value Computed by CMake
-CMAKE_PROJECT_VERSION_PATCH:STATIC=0
+CMAKE_PROJECT_VERSION_PATCH:STATIC=
 
 //Value Computed by CMake
 CMAKE_PROJECT_VERSION_TWEAK:STATIC=
@@ -342,10 +342,10 @@ googletest-distribution_BINARY_DIR:STATIC=C:/Users/Martina/Desktop/uni/programma
 googletest-distribution_SOURCE_DIR:STATIC=C:/Users/Martina/Desktop/uni/programmazione/Martina_Bicchi_7049270/test/lib/googletest-master
 
 //Value Computed by CMake
-gtest_BINARY_DIR:STATIC=C:/Users/Martina/Desktop/uni/programmazione/Martina_Bicchi_7049270/cmake-build-debug/test/lib/googletest
+gtest_BINARY_DIR:STATIC=C:/Users/Martina/Desktop/uni/programmazione/Martina_Bicchi_7049270/cmake-build-debug/test/lib/googletest-master/googletest
 
 //Value Computed by CMake
-gtest_SOURCE_DIR:STATIC=C:/Users/Martina/Desktop/uni/programmazione/Martina_Bicchi_7049270/test/lib/googletest
+gtest_SOURCE_DIR:STATIC=C:/Users/Martina/Desktop/uni/programmazione/Martina_Bicchi_7049270/test/lib/googletest-master/googletest
 
 //Build gtest's sample programs.
 gtest_build_samples:BOOL=OFF
@@ -365,6 +365,12 @@ gtest_hide_internal_symbols:BOOL=OFF
 
 //Dependencies for the target
 gtest_main_LIB_DEPENDS:STATIC=general;gtest;
+
+//Value Computed by CMake
+test_BINARY_DIR:STATIC=C:/Users/Martina/Desktop/uni/programmazione/Martina_Bicchi_7049270/cmake-build-debug/test
+
+//Value Computed by CMake
+test_SOURCE_DIR:STATIC=C:/Users/Martina/Desktop/uni/programmazione/Martina_Bicchi_7049270/test
 
 
 ########################
@@ -511,7 +517,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=1
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=3
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP
@@ -570,7 +576,7 @@ _GNUInstallDirs_LAST_CMAKE_INSTALL_PREFIX:INTERNAL=C:/Program Files (x86)/Martin
 //Path to a program.
 _Python_EXECUTABLE:INTERNAL=_Python_EXECUTABLE-NOTFOUND
 cmake_package_name:INTERNAL=GTest
-generated_dir:INTERNAL=C:/Users/Martina/Desktop/uni/programmazione/Martina_Bicchi_7049270/cmake-build-debug/test/lib/googletest/generated
+generated_dir:INTERNAL=C:/Users/Martina/Desktop/uni/programmazione/Martina_Bicchi_7049270/cmake-build-debug/test/lib/googletest-master/googletest/generated
 //ADVANCED property for variable: gmock_build_tests
 gmock_build_tests-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: gtest_build_samples

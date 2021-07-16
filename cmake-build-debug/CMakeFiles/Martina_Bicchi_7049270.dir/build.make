@@ -89,95 +89,20 @@ CMakeFiles/Martina_Bicchi_7049270.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Martina_Bicchi_7049270.dir/main.cpp.s"
 	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Martina\Desktop\uni\programmazione\Martina_Bicchi_7049270\main.cpp -o CMakeFiles\Martina_Bicchi_7049270.dir\main.cpp.s
 
-CMakeFiles/Martina_Bicchi_7049270.dir/ConcreteObserver.cpp.obj: CMakeFiles/Martina_Bicchi_7049270.dir/flags.make
-CMakeFiles/Martina_Bicchi_7049270.dir/ConcreteObserver.cpp.obj: ../ConcreteObserver.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Martina\Desktop\uni\programmazione\Martina_Bicchi_7049270\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Martina_Bicchi_7049270.dir/ConcreteObserver.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Martina_Bicchi_7049270.dir\ConcreteObserver.cpp.obj -c C:\Users\Martina\Desktop\uni\programmazione\Martina_Bicchi_7049270\ConcreteObserver.cpp
-
-CMakeFiles/Martina_Bicchi_7049270.dir/ConcreteObserver.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Martina_Bicchi_7049270.dir/ConcreteObserver.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Martina\Desktop\uni\programmazione\Martina_Bicchi_7049270\ConcreteObserver.cpp > CMakeFiles\Martina_Bicchi_7049270.dir\ConcreteObserver.cpp.i
-
-CMakeFiles/Martina_Bicchi_7049270.dir/ConcreteObserver.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Martina_Bicchi_7049270.dir/ConcreteObserver.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Martina\Desktop\uni\programmazione\Martina_Bicchi_7049270\ConcreteObserver.cpp -o CMakeFiles\Martina_Bicchi_7049270.dir\ConcreteObserver.cpp.s
-
-CMakeFiles/Martina_Bicchi_7049270.dir/Note.cpp.obj: CMakeFiles/Martina_Bicchi_7049270.dir/flags.make
-CMakeFiles/Martina_Bicchi_7049270.dir/Note.cpp.obj: ../Note.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Martina\Desktop\uni\programmazione\Martina_Bicchi_7049270\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Martina_Bicchi_7049270.dir/Note.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Martina_Bicchi_7049270.dir\Note.cpp.obj -c C:\Users\Martina\Desktop\uni\programmazione\Martina_Bicchi_7049270\Note.cpp
-
-CMakeFiles/Martina_Bicchi_7049270.dir/Note.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Martina_Bicchi_7049270.dir/Note.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Martina\Desktop\uni\programmazione\Martina_Bicchi_7049270\Note.cpp > CMakeFiles\Martina_Bicchi_7049270.dir\Note.cpp.i
-
-CMakeFiles/Martina_Bicchi_7049270.dir/Note.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Martina_Bicchi_7049270.dir/Note.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Martina\Desktop\uni\programmazione\Martina_Bicchi_7049270\Note.cpp -o CMakeFiles\Martina_Bicchi_7049270.dir\Note.cpp.s
-
-CMakeFiles/Martina_Bicchi_7049270.dir/NotesCollection.cpp.obj: CMakeFiles/Martina_Bicchi_7049270.dir/flags.make
-CMakeFiles/Martina_Bicchi_7049270.dir/NotesCollection.cpp.obj: ../NotesCollection.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Martina\Desktop\uni\programmazione\Martina_Bicchi_7049270\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Martina_Bicchi_7049270.dir/NotesCollection.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Martina_Bicchi_7049270.dir\NotesCollection.cpp.obj -c C:\Users\Martina\Desktop\uni\programmazione\Martina_Bicchi_7049270\NotesCollection.cpp
-
-CMakeFiles/Martina_Bicchi_7049270.dir/NotesCollection.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Martina_Bicchi_7049270.dir/NotesCollection.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Martina\Desktop\uni\programmazione\Martina_Bicchi_7049270\NotesCollection.cpp > CMakeFiles\Martina_Bicchi_7049270.dir\NotesCollection.cpp.i
-
-CMakeFiles/Martina_Bicchi_7049270.dir/NotesCollection.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Martina_Bicchi_7049270.dir/NotesCollection.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Martina\Desktop\uni\programmazione\Martina_Bicchi_7049270\NotesCollection.cpp -o CMakeFiles\Martina_Bicchi_7049270.dir\NotesCollection.cpp.s
-
-CMakeFiles/Martina_Bicchi_7049270.dir/NotesCollectionSpecific.cpp.obj: CMakeFiles/Martina_Bicchi_7049270.dir/flags.make
-CMakeFiles/Martina_Bicchi_7049270.dir/NotesCollectionSpecific.cpp.obj: ../NotesCollectionSpecific.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Martina\Desktop\uni\programmazione\Martina_Bicchi_7049270\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Martina_Bicchi_7049270.dir/NotesCollectionSpecific.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Martina_Bicchi_7049270.dir\NotesCollectionSpecific.cpp.obj -c C:\Users\Martina\Desktop\uni\programmazione\Martina_Bicchi_7049270\NotesCollectionSpecific.cpp
-
-CMakeFiles/Martina_Bicchi_7049270.dir/NotesCollectionSpecific.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Martina_Bicchi_7049270.dir/NotesCollectionSpecific.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Martina\Desktop\uni\programmazione\Martina_Bicchi_7049270\NotesCollectionSpecific.cpp > CMakeFiles\Martina_Bicchi_7049270.dir\NotesCollectionSpecific.cpp.i
-
-CMakeFiles/Martina_Bicchi_7049270.dir/NotesCollectionSpecific.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Martina_Bicchi_7049270.dir/NotesCollectionSpecific.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Martina\Desktop\uni\programmazione\Martina_Bicchi_7049270\NotesCollectionSpecific.cpp -o CMakeFiles\Martina_Bicchi_7049270.dir\NotesCollectionSpecific.cpp.s
-
-CMakeFiles/Martina_Bicchi_7049270.dir/NotesCollectionImportant.cpp.obj: CMakeFiles/Martina_Bicchi_7049270.dir/flags.make
-CMakeFiles/Martina_Bicchi_7049270.dir/NotesCollectionImportant.cpp.obj: ../NotesCollectionImportant.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Martina\Desktop\uni\programmazione\Martina_Bicchi_7049270\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Martina_Bicchi_7049270.dir/NotesCollectionImportant.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Martina_Bicchi_7049270.dir\NotesCollectionImportant.cpp.obj -c C:\Users\Martina\Desktop\uni\programmazione\Martina_Bicchi_7049270\NotesCollectionImportant.cpp
-
-CMakeFiles/Martina_Bicchi_7049270.dir/NotesCollectionImportant.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Martina_Bicchi_7049270.dir/NotesCollectionImportant.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Martina\Desktop\uni\programmazione\Martina_Bicchi_7049270\NotesCollectionImportant.cpp > CMakeFiles\Martina_Bicchi_7049270.dir\NotesCollectionImportant.cpp.i
-
-CMakeFiles/Martina_Bicchi_7049270.dir/NotesCollectionImportant.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Martina_Bicchi_7049270.dir/NotesCollectionImportant.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Martina\Desktop\uni\programmazione\Martina_Bicchi_7049270\NotesCollectionImportant.cpp -o CMakeFiles\Martina_Bicchi_7049270.dir\NotesCollectionImportant.cpp.s
-
 # Object files for target Martina_Bicchi_7049270
 Martina_Bicchi_7049270_OBJECTS = \
-"CMakeFiles/Martina_Bicchi_7049270.dir/main.cpp.obj" \
-"CMakeFiles/Martina_Bicchi_7049270.dir/ConcreteObserver.cpp.obj" \
-"CMakeFiles/Martina_Bicchi_7049270.dir/Note.cpp.obj" \
-"CMakeFiles/Martina_Bicchi_7049270.dir/NotesCollection.cpp.obj" \
-"CMakeFiles/Martina_Bicchi_7049270.dir/NotesCollectionSpecific.cpp.obj" \
-"CMakeFiles/Martina_Bicchi_7049270.dir/NotesCollectionImportant.cpp.obj"
+"CMakeFiles/Martina_Bicchi_7049270.dir/main.cpp.obj"
 
 # External object files for target Martina_Bicchi_7049270
 Martina_Bicchi_7049270_EXTERNAL_OBJECTS =
 
 Martina_Bicchi_7049270.exe: CMakeFiles/Martina_Bicchi_7049270.dir/main.cpp.obj
-Martina_Bicchi_7049270.exe: CMakeFiles/Martina_Bicchi_7049270.dir/ConcreteObserver.cpp.obj
-Martina_Bicchi_7049270.exe: CMakeFiles/Martina_Bicchi_7049270.dir/Note.cpp.obj
-Martina_Bicchi_7049270.exe: CMakeFiles/Martina_Bicchi_7049270.dir/NotesCollection.cpp.obj
-Martina_Bicchi_7049270.exe: CMakeFiles/Martina_Bicchi_7049270.dir/NotesCollectionSpecific.cpp.obj
-Martina_Bicchi_7049270.exe: CMakeFiles/Martina_Bicchi_7049270.dir/NotesCollectionImportant.cpp.obj
 Martina_Bicchi_7049270.exe: CMakeFiles/Martina_Bicchi_7049270.dir/build.make
 Martina_Bicchi_7049270.exe: libcore.a
 Martina_Bicchi_7049270.exe: CMakeFiles/Martina_Bicchi_7049270.dir/linklibs.rsp
 Martina_Bicchi_7049270.exe: CMakeFiles/Martina_Bicchi_7049270.dir/objects1.rsp
 Martina_Bicchi_7049270.exe: CMakeFiles/Martina_Bicchi_7049270.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Martina\Desktop\uni\programmazione\Martina_Bicchi_7049270\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable Martina_Bicchi_7049270.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Martina\Desktop\uni\programmazione\Martina_Bicchi_7049270\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Martina_Bicchi_7049270.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Martina_Bicchi_7049270.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
