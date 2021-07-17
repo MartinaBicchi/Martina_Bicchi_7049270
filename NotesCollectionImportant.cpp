@@ -19,7 +19,7 @@ void NotesCollectionImportant::removeNote(const std::string& n){
         notify();
     }
     else
-        std::cout<<"Non è possibile rimuovere dalla lista di note"<<name<<" la nota "<<n<<std::endl;
+        std::cout<<"Non è possibile rimuovere dalla lista di note "<<name<<" la nota "<<n<< "in quanto ha la cancellazione bloccata"<<std::endl;
 }
 
 int NotesCollectionImportant::NotesNumber() {

@@ -14,9 +14,11 @@ public:
     };
     ~ConcreteObserver(){
         subject->unsubsribe(this);
-        delete subject;
     }
     void update() override;
+
+    NotesCollection *getSubject() const;
+
 private:
     NotesCollection* subject;
 };

@@ -19,7 +19,12 @@ public:
     virtual void subscribe(Observer* onew);
     virtual void unsubsribe(Observer* old);
     virtual void notify();
-
+    virtual int ContoObserver(){
+        int count=0;
+        for(auto itr:observers)
+            count++;
+        return count;
+    }
     const std::string &getName() const {
         return name;
     }
@@ -37,6 +42,7 @@ public:
 protected:
     std::string name;
     std::map<std::string,Note*> notes;
+    std::list<Observer*> observers;
 };
 
 

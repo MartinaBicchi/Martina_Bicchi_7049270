@@ -190,32 +190,113 @@ runNoteTest/fast:
 	cd /d C:\Users\Martina\Desktop\uni\programmazione\Martina_Bicchi_7049270\cmake-build-debug && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\runNoteTest.dir\build.make test/CMakeFiles/runNoteTest.dir/build
 .PHONY : runNoteTest/fast
 
-Notefixture.obj: Notefixture.cpp.obj
+ConcreteObservertest.obj: ConcreteObservertest.cpp.obj
 
-.PHONY : Notefixture.obj
+.PHONY : ConcreteObservertest.obj
 
 # target to build an object file
-Notefixture.cpp.obj:
-	cd /d C:\Users\Martina\Desktop\uni\programmazione\Martina_Bicchi_7049270\cmake-build-debug && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\runNoteTest.dir\build.make test/CMakeFiles/runNoteTest.dir/Notefixture.cpp.obj
-.PHONY : Notefixture.cpp.obj
+ConcreteObservertest.cpp.obj:
+	cd /d C:\Users\Martina\Desktop\uni\programmazione\Martina_Bicchi_7049270\cmake-build-debug && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\runNoteTest.dir\build.make test/CMakeFiles/runNoteTest.dir/ConcreteObservertest.cpp.obj
+.PHONY : ConcreteObservertest.cpp.obj
 
-Notefixture.i: Notefixture.cpp.i
+ConcreteObservertest.i: ConcreteObservertest.cpp.i
 
-.PHONY : Notefixture.i
+.PHONY : ConcreteObservertest.i
 
 # target to preprocess a source file
-Notefixture.cpp.i:
-	cd /d C:\Users\Martina\Desktop\uni\programmazione\Martina_Bicchi_7049270\cmake-build-debug && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\runNoteTest.dir\build.make test/CMakeFiles/runNoteTest.dir/Notefixture.cpp.i
-.PHONY : Notefixture.cpp.i
+ConcreteObservertest.cpp.i:
+	cd /d C:\Users\Martina\Desktop\uni\programmazione\Martina_Bicchi_7049270\cmake-build-debug && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\runNoteTest.dir\build.make test/CMakeFiles/runNoteTest.dir/ConcreteObservertest.cpp.i
+.PHONY : ConcreteObservertest.cpp.i
 
-Notefixture.s: Notefixture.cpp.s
+ConcreteObservertest.s: ConcreteObservertest.cpp.s
 
-.PHONY : Notefixture.s
+.PHONY : ConcreteObservertest.s
 
 # target to generate assembly for a file
-Notefixture.cpp.s:
-	cd /d C:\Users\Martina\Desktop\uni\programmazione\Martina_Bicchi_7049270\cmake-build-debug && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\runNoteTest.dir\build.make test/CMakeFiles/runNoteTest.dir/Notefixture.cpp.s
-.PHONY : Notefixture.cpp.s
+ConcreteObservertest.cpp.s:
+	cd /d C:\Users\Martina\Desktop\uni\programmazione\Martina_Bicchi_7049270\cmake-build-debug && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\runNoteTest.dir\build.make test/CMakeFiles/runNoteTest.dir/ConcreteObservertest.cpp.s
+.PHONY : ConcreteObservertest.cpp.s
+
+NoteCollctionSpecificfixture.obj: NoteCollctionSpecificfixture.cpp.obj
+
+.PHONY : NoteCollctionSpecificfixture.obj
+
+# target to build an object file
+NoteCollctionSpecificfixture.cpp.obj:
+	cd /d C:\Users\Martina\Desktop\uni\programmazione\Martina_Bicchi_7049270\cmake-build-debug && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\runNoteTest.dir\build.make test/CMakeFiles/runNoteTest.dir/NoteCollctionSpecificfixture.cpp.obj
+.PHONY : NoteCollctionSpecificfixture.cpp.obj
+
+NoteCollctionSpecificfixture.i: NoteCollctionSpecificfixture.cpp.i
+
+.PHONY : NoteCollctionSpecificfixture.i
+
+# target to preprocess a source file
+NoteCollctionSpecificfixture.cpp.i:
+	cd /d C:\Users\Martina\Desktop\uni\programmazione\Martina_Bicchi_7049270\cmake-build-debug && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\runNoteTest.dir\build.make test/CMakeFiles/runNoteTest.dir/NoteCollctionSpecificfixture.cpp.i
+.PHONY : NoteCollctionSpecificfixture.cpp.i
+
+NoteCollctionSpecificfixture.s: NoteCollctionSpecificfixture.cpp.s
+
+.PHONY : NoteCollctionSpecificfixture.s
+
+# target to generate assembly for a file
+NoteCollctionSpecificfixture.cpp.s:
+	cd /d C:\Users\Martina\Desktop\uni\programmazione\Martina_Bicchi_7049270\cmake-build-debug && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\runNoteTest.dir\build.make test/CMakeFiles/runNoteTest.dir/NoteCollctionSpecificfixture.cpp.s
+.PHONY : NoteCollctionSpecificfixture.cpp.s
+
+NoteCollectionImportantfixture.obj: NoteCollectionImportantfixture.cpp.obj
+
+.PHONY : NoteCollectionImportantfixture.obj
+
+# target to build an object file
+NoteCollectionImportantfixture.cpp.obj:
+	cd /d C:\Users\Martina\Desktop\uni\programmazione\Martina_Bicchi_7049270\cmake-build-debug && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\runNoteTest.dir\build.make test/CMakeFiles/runNoteTest.dir/NoteCollectionImportantfixture.cpp.obj
+.PHONY : NoteCollectionImportantfixture.cpp.obj
+
+NoteCollectionImportantfixture.i: NoteCollectionImportantfixture.cpp.i
+
+.PHONY : NoteCollectionImportantfixture.i
+
+# target to preprocess a source file
+NoteCollectionImportantfixture.cpp.i:
+	cd /d C:\Users\Martina\Desktop\uni\programmazione\Martina_Bicchi_7049270\cmake-build-debug && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\runNoteTest.dir\build.make test/CMakeFiles/runNoteTest.dir/NoteCollectionImportantfixture.cpp.i
+.PHONY : NoteCollectionImportantfixture.cpp.i
+
+NoteCollectionImportantfixture.s: NoteCollectionImportantfixture.cpp.s
+
+.PHONY : NoteCollectionImportantfixture.s
+
+# target to generate assembly for a file
+NoteCollectionImportantfixture.cpp.s:
+	cd /d C:\Users\Martina\Desktop\uni\programmazione\Martina_Bicchi_7049270\cmake-build-debug && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\runNoteTest.dir\build.make test/CMakeFiles/runNoteTest.dir/NoteCollectionImportantfixture.cpp.s
+.PHONY : NoteCollectionImportantfixture.cpp.s
+
+NoteCollectiontest.obj: NoteCollectiontest.cpp.obj
+
+.PHONY : NoteCollectiontest.obj
+
+# target to build an object file
+NoteCollectiontest.cpp.obj:
+	cd /d C:\Users\Martina\Desktop\uni\programmazione\Martina_Bicchi_7049270\cmake-build-debug && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\runNoteTest.dir\build.make test/CMakeFiles/runNoteTest.dir/NoteCollectiontest.cpp.obj
+.PHONY : NoteCollectiontest.cpp.obj
+
+NoteCollectiontest.i: NoteCollectiontest.cpp.i
+
+.PHONY : NoteCollectiontest.i
+
+# target to preprocess a source file
+NoteCollectiontest.cpp.i:
+	cd /d C:\Users\Martina\Desktop\uni\programmazione\Martina_Bicchi_7049270\cmake-build-debug && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\runNoteTest.dir\build.make test/CMakeFiles/runNoteTest.dir/NoteCollectiontest.cpp.i
+.PHONY : NoteCollectiontest.cpp.i
+
+NoteCollectiontest.s: NoteCollectiontest.cpp.s
+
+.PHONY : NoteCollectiontest.s
+
+# target to generate assembly for a file
+NoteCollectiontest.cpp.s:
+	cd /d C:\Users\Martina\Desktop\uni\programmazione\Martina_Bicchi_7049270\cmake-build-debug && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\runNoteTest.dir\build.make test/CMakeFiles/runNoteTest.dir/NoteCollectiontest.cpp.s
+.PHONY : NoteCollectiontest.cpp.s
 
 Notetest.obj: Notetest.cpp.obj
 
@@ -284,9 +365,18 @@ help:
 	@echo ... list_install_components
 	@echo ... rebuild_cache
 	@echo ... runNoteTest
-	@echo ... Notefixture.obj
-	@echo ... Notefixture.i
-	@echo ... Notefixture.s
+	@echo ... ConcreteObservertest.obj
+	@echo ... ConcreteObservertest.i
+	@echo ... ConcreteObservertest.s
+	@echo ... NoteCollctionSpecificfixture.obj
+	@echo ... NoteCollctionSpecificfixture.i
+	@echo ... NoteCollctionSpecificfixture.s
+	@echo ... NoteCollectionImportantfixture.obj
+	@echo ... NoteCollectionImportantfixture.i
+	@echo ... NoteCollectionImportantfixture.s
+	@echo ... NoteCollectiontest.obj
+	@echo ... NoteCollectiontest.i
+	@echo ... NoteCollectiontest.s
 	@echo ... Notetest.obj
 	@echo ... Notetest.i
 	@echo ... Notetest.s

@@ -341,7 +341,16 @@
 		<Unit filename="C:/Users/Martina/Desktop/uni/programmazione/Martina_Bicchi_7049270/main.cpp">
 			<Option target="Martina_Bicchi_7049270"/>
 		</Unit>
-		<Unit filename="C:/Users/Martina/Desktop/uni/programmazione/Martina_Bicchi_7049270/test/Notefixture.cpp">
+		<Unit filename="C:/Users/Martina/Desktop/uni/programmazione/Martina_Bicchi_7049270/test/ConcreteObservertest.cpp">
+			<Option target="runNoteTest"/>
+		</Unit>
+		<Unit filename="C:/Users/Martina/Desktop/uni/programmazione/Martina_Bicchi_7049270/test/NoteCollctionSpecificfixture.cpp">
+			<Option target="runNoteTest"/>
+		</Unit>
+		<Unit filename="C:/Users/Martina/Desktop/uni/programmazione/Martina_Bicchi_7049270/test/NoteCollectionImportantfixture.cpp">
+			<Option target="runNoteTest"/>
+		</Unit>
+		<Unit filename="C:/Users/Martina/Desktop/uni/programmazione/Martina_Bicchi_7049270/test/NoteCollectiontest.cpp">
 			<Option target="runNoteTest"/>
 		</Unit>
 		<Unit filename="C:/Users/Martina/Desktop/uni/programmazione/Martina_Bicchi_7049270/test/Notetest.cpp">

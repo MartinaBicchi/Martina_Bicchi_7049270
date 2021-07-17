@@ -5,5 +5,9 @@
 #include "ConcreteObserver.h"
 
 void ConcreteObserver::update() {
-    std::cout<<"Dopo la modifica nella collezione"<<subject->getName()<<"ci sono:"<<subject->NotesNumber()<<"note"<<std::endl;
+    std::cout<<"Dopo la modifica nella collezione "<<subject->getName()<<"ci sono: "<<subject->NotesNumber()<<" note"<<std::endl;
+}
+
+NotesCollection *ConcreteObserver::getSubject() const {
+    return subject;
 }
