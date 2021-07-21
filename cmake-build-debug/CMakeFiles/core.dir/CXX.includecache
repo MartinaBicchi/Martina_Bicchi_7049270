@@ -16,10 +16,6 @@ C:/Users/Martina/Desktop/uni/programmazione/Martina_Bicchi_7049270/Observer.h
 NotesCollection.h
 C:/Users/Martina/Desktop/uni/programmazione/Martina_Bicchi_7049270/NotesCollection.h
 
-C:/Users/Martina/Desktop/uni/programmazione/Martina_Bicchi_7049270/Note.cpp
-Note.h
-C:/Users/Martina/Desktop/uni/programmazione/Martina_Bicchi_7049270/Note.h
-
 C:/Users/Martina/Desktop/uni/programmazione/Martina_Bicchi_7049270/Note.h
 iostream
 -
@@ -43,6 +39,8 @@ C:/Users/Martina/Desktop/uni/programmazione/Martina_Bicchi_7049270/Subject.h
 C:/Users/Martina/Desktop/uni/programmazione/Martina_Bicchi_7049270/NotesCollectionImportant.cpp
 NotesCollectionImportant.h
 C:/Users/Martina/Desktop/uni/programmazione/Martina_Bicchi_7049270/NotesCollectionImportant.h
+exception
+-
 
 C:/Users/Martina/Desktop/uni/programmazione/Martina_Bicchi_7049270/NotesCollectionImportant.h
 NotesCollection.h

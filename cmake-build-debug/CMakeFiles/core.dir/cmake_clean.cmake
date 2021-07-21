@@ -1,6 +1,5 @@
 file(REMOVE_RECURSE
   "CMakeFiles/core.dir/ConcreteObserver.cpp.obj"
-  "CMakeFiles/core.dir/Note.cpp.obj"
   "CMakeFiles/core.dir/NotesCollection.cpp.obj"
   "CMakeFiles/core.dir/NotesCollectionImportant.cpp.obj"
   "CMakeFiles/core.dir/NotesCollectionSpecific.cpp.obj"

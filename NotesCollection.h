@@ -9,22 +9,17 @@
 #include "Note.h"
 #include "Subject.h"
 
-class NotesCollection: public subject {
+class NotesCollection: public Subject {
 public:
     NotesCollection(std::string nome): name(nome){};
     virtual ~NotesCollection(){};
     virtual void addNote(Note* note)=0;
     virtual void removeNote(const std::string& n)=0;
     virtual int NotesNumber()=0;
-    virtual void subscribe(Observer* onew);
-    virtual void unsubsribe(Observer* old);
+    void unsubscribe(Observer* old) override;
+    void subscribe(Observer* onew) override;
     virtual void notify();
-    virtual int ContoObserver(){
-        int count=0;
-        for(auto itr:observers)
-            count++;
-        return count;
-    }
+
     const std::string &getName() const {
         return name;
     }

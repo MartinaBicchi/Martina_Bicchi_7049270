@@ -76,22 +76,9 @@ include CMakeFiles/core.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/core.dir/flags.make
 
-CMakeFiles/core.dir/Note.cpp.obj: CMakeFiles/core.dir/flags.make
-CMakeFiles/core.dir/Note.cpp.obj: ../Note.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Martina\Desktop\uni\programmazione\Martina_Bicchi_7049270\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/core.dir/Note.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\core.dir\Note.cpp.obj -c C:\Users\Martina\Desktop\uni\programmazione\Martina_Bicchi_7049270\Note.cpp
-
-CMakeFiles/core.dir/Note.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/core.dir/Note.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Martina\Desktop\uni\programmazione\Martina_Bicchi_7049270\Note.cpp > CMakeFiles\core.dir\Note.cpp.i
-
-CMakeFiles/core.dir/Note.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/core.dir/Note.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Martina\Desktop\uni\programmazione\Martina_Bicchi_7049270\Note.cpp -o CMakeFiles\core.dir\Note.cpp.s
-
 CMakeFiles/core.dir/NotesCollectionSpecific.cpp.obj: CMakeFiles/core.dir/flags.make
 CMakeFiles/core.dir/NotesCollectionSpecific.cpp.obj: ../NotesCollectionSpecific.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Martina\Desktop\uni\programmazione\Martina_Bicchi_7049270\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/core.dir/NotesCollectionSpecific.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Martina\Desktop\uni\programmazione\Martina_Bicchi_7049270\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/core.dir/NotesCollectionSpecific.cpp.obj"
 	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\core.dir\NotesCollectionSpecific.cpp.obj -c C:\Users\Martina\Desktop\uni\programmazione\Martina_Bicchi_7049270\NotesCollectionSpecific.cpp
 
 CMakeFiles/core.dir/NotesCollectionSpecific.cpp.i: cmake_force
@@ -104,7 +91,7 @@ CMakeFiles/core.dir/NotesCollectionSpecific.cpp.s: cmake_force
 
 CMakeFiles/core.dir/NotesCollectionImportant.cpp.obj: CMakeFiles/core.dir/flags.make
 CMakeFiles/core.dir/NotesCollectionImportant.cpp.obj: ../NotesCollectionImportant.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Martina\Desktop\uni\programmazione\Martina_Bicchi_7049270\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/core.dir/NotesCollectionImportant.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Martina\Desktop\uni\programmazione\Martina_Bicchi_7049270\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/core.dir/NotesCollectionImportant.cpp.obj"
 	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\core.dir\NotesCollectionImportant.cpp.obj -c C:\Users\Martina\Desktop\uni\programmazione\Martina_Bicchi_7049270\NotesCollectionImportant.cpp
 
 CMakeFiles/core.dir/NotesCollectionImportant.cpp.i: cmake_force
@@ -117,7 +104,7 @@ CMakeFiles/core.dir/NotesCollectionImportant.cpp.s: cmake_force
 
 CMakeFiles/core.dir/NotesCollection.cpp.obj: CMakeFiles/core.dir/flags.make
 CMakeFiles/core.dir/NotesCollection.cpp.obj: ../NotesCollection.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Martina\Desktop\uni\programmazione\Martina_Bicchi_7049270\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/core.dir/NotesCollection.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Martina\Desktop\uni\programmazione\Martina_Bicchi_7049270\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/core.dir/NotesCollection.cpp.obj"
 	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\core.dir\NotesCollection.cpp.obj -c C:\Users\Martina\Desktop\uni\programmazione\Martina_Bicchi_7049270\NotesCollection.cpp
 
 CMakeFiles/core.dir/NotesCollection.cpp.i: cmake_force
@@ -130,7 +117,7 @@ CMakeFiles/core.dir/NotesCollection.cpp.s: cmake_force
 
 CMakeFiles/core.dir/ConcreteObserver.cpp.obj: CMakeFiles/core.dir/flags.make
 CMakeFiles/core.dir/ConcreteObserver.cpp.obj: ../ConcreteObserver.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Martina\Desktop\uni\programmazione\Martina_Bicchi_7049270\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/core.dir/ConcreteObserver.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Martina\Desktop\uni\programmazione\Martina_Bicchi_7049270\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/core.dir/ConcreteObserver.cpp.obj"
 	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\core.dir\ConcreteObserver.cpp.obj -c C:\Users\Martina\Desktop\uni\programmazione\Martina_Bicchi_7049270\ConcreteObserver.cpp
 
 CMakeFiles/core.dir/ConcreteObserver.cpp.i: cmake_force
@@ -143,7 +130,6 @@ CMakeFiles/core.dir/ConcreteObserver.cpp.s: cmake_force
 
 # Object files for target core
 core_OBJECTS = \
-"CMakeFiles/core.dir/Note.cpp.obj" \
 "CMakeFiles/core.dir/NotesCollectionSpecific.cpp.obj" \
 "CMakeFiles/core.dir/NotesCollectionImportant.cpp.obj" \
 "CMakeFiles/core.dir/NotesCollection.cpp.obj" \
@@ -152,14 +138,13 @@ core_OBJECTS = \
 # External object files for target core
 core_EXTERNAL_OBJECTS =
 
-libcore.a: CMakeFiles/core.dir/Note.cpp.obj
 libcore.a: CMakeFiles/core.dir/NotesCollectionSpecific.cpp.obj
 libcore.a: CMakeFiles/core.dir/NotesCollectionImportant.cpp.obj
 libcore.a: CMakeFiles/core.dir/NotesCollection.cpp.obj
 libcore.a: CMakeFiles/core.dir/ConcreteObserver.cpp.obj
 libcore.a: CMakeFiles/core.dir/build.make
 libcore.a: CMakeFiles/core.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Martina\Desktop\uni\programmazione\Martina_Bicchi_7049270\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX static library libcore.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Martina\Desktop\uni\programmazione\Martina_Bicchi_7049270\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX static library libcore.a"
 	$(CMAKE_COMMAND) -P CMakeFiles\core.dir\cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\core.dir\link.txt --verbose=$(VERBOSE)
 

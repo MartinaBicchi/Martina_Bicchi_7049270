@@ -4,6 +4,7 @@
 #include "NotesCollectionImportant.h"
 #include "NotesCollectionSpecific.h"
 #include "ConcreteObserver.h"
+#include <memory>
 
 int main() {
     Note* nota1;
@@ -102,10 +103,14 @@ int main() {
         collection1=new NotesCollectionSpecific(nomecollection);
     else
         collection1=new NotesCollectionImportant(nomecollection);
-
+try {
     collection1->addNote(nota1);
     collection1->addNote(nota2);
     collection1->addNote(nota3);
+}catch(std::runtime_error& e)
+{
+    std::cout<<e.what()<<std::endl;
+}
     std::cout<<"Il numero di note nella collezione  "<<collection1->getName()<<":         "<<collection1->NotesNumber()<<std::endl;
 
     ConcreteObserver osservatore1(collection1);
@@ -140,23 +145,41 @@ int main() {
         locked4=false;
 
     nota4=new Note(name4, testo4, important4,locked4);
-    collection1->addNote(nota4);
+    try {
+        collection1->addNote(nota4);
+    }catch(std::runtime_error& e)
+    {
+        std::cerr<<e.what()<<std::endl;
+    }
 
     nota4->setLocked(true);
-    collection1->removeNote(nota4->getTitle());
+
+    try{
+    collection1->removeNote(nota4->getTitle());}
+    catch(std::runtime_error& e){
+        std::cerr<<e.what()<<std::endl;
+    }
+    try{
+    nota4->setIsImportant(true);}catch(std::runtime_error& e)
+    {
+        std::cerr<<e.what()<<std::endl;
+    }
 
     std::string numeronota;
     std::cout<<"Inserire il numero della nota che si vuole rimuovere (prima/seconda/terza/quarta)"<<std::endl;
     getline(std::cin,numeronota);
-
-    if(numeronota=="prima")
+try {
+    if (numeronota == "prima")
         collection1->removeNote(nota1->getTitle());
-    else if(numeronota=="seconda")
+    else if (numeronota == "seconda")
         collection1->removeNote(nota2->getTitle());
-    else if(numeronota=="terza")
+    else if (numeronota == "terza")
         collection1->removeNote(nota3->getTitle());
-    else if(numeronota=="quarta")
+    else if (numeronota == "quarta")
         collection1->removeNote(nota4->getTitle());
+}catch(std::runtime_error& e){
+    std::cerr<<e.what()<<std::endl;
+}
 
     return 0;
 }

@@ -7,7 +7,7 @@
 void NotesCollection::subscribe(Observer* onew){
     observers.push_back(onew);
 }
-void NotesCollection::unsubsribe(Observer* old){
+void NotesCollection::unsubscribe(Observer* old){
     observers.remove(old);
 }
 

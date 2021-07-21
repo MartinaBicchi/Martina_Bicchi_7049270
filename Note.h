@@ -18,7 +18,7 @@ public:
         if(!locked)
             title = titolo;
         else
-            std::cout<<"Impossibile modificare il titolo della nota"<<title<<std::endl;
+            throw std::runtime_error{"Impossibile modificare il titolo della nota"};
     }
 
     const std::string &getText() const {
@@ -28,7 +28,7 @@ public:
         if(!locked)
             text = testo;
         else
-            std::cout<<"Impossibile modificare il testo della nota"<<title<<std::endl;
+            throw std::runtime_error{"Impossibile modificare il testo della nota"};
     }
 
     bool isImportant1() const {
@@ -38,7 +38,7 @@ public:
         if(!locked)
             Note::isImportant = isImportante;
         else
-            std::cout<<"Impossibile modificare l'importanza della nota"<<title<<std::endl;
+            throw std::runtime_error{"Impossibile modificare l'importanza della nota"};
     }
 
     bool isLocked() const {
@@ -47,9 +47,6 @@ public:
     void setLocked(bool islocked) {
         Note::locked = islocked;
     }
-
-    Note(const Note& original);
-    Note& operator=(const Note& original);
 
 private:
     std::string title;

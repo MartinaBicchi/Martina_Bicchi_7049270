@@ -8,6 +8,7 @@
 
 class Observer{
 public:
+    virtual ~Observer()=default;
     virtual void update()=0;
 };
 #endif //MARTINA_BICCHI_7049270_OBSERVER_H

@@ -308,9 +308,6 @@
 		<Unit filename="C:/Users/Martina/Desktop/uni/programmazione/Martina_Bicchi_7049270/ConcreteObserver.h">
 			<Option target="core"/>
 		</Unit>
-		<Unit filename="C:/Users/Martina/Desktop/uni/programmazione/Martina_Bicchi_7049270/Note.cpp">
-			<Option target="core"/>
-		</Unit>
 		<Unit filename="C:/Users/Martina/Desktop/uni/programmazione/Martina_Bicchi_7049270/Note.h">
 			<Option target="core"/>
 		</Unit>
@@ -348,9 +345,6 @@
 			<Option target="runNoteTest"/>
 		</Unit>
 		<Unit filename="C:/Users/Martina/Desktop/uni/programmazione/Martina_Bicchi_7049270/test/NoteCollectionImportantfixture.cpp">
-			<Option target="runNoteTest"/>
-		</Unit>
-		<Unit filename="C:/Users/Martina/Desktop/uni/programmazione/Martina_Bicchi_7049270/test/NoteCollectiontest.cpp">
 			<Option target="runNoteTest"/>
 		</Unit>
 		<Unit filename="C:/Users/Martina/Desktop/uni/programmazione/Martina_Bicchi_7049270/test/Notetest.cpp">

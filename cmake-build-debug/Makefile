@@ -267,33 +267,6 @@ ConcreteObserver.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\core.dir\build.make CMakeFiles/core.dir/ConcreteObserver.cpp.s
 .PHONY : ConcreteObserver.cpp.s
 
-Note.obj: Note.cpp.obj
-
-.PHONY : Note.obj
-
-# target to build an object file
-Note.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\core.dir\build.make CMakeFiles/core.dir/Note.cpp.obj
-.PHONY : Note.cpp.obj
-
-Note.i: Note.cpp.i
-
-.PHONY : Note.i
-
-# target to preprocess a source file
-Note.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\core.dir\build.make CMakeFiles/core.dir/Note.cpp.i
-.PHONY : Note.cpp.i
-
-Note.s: Note.cpp.s
-
-.PHONY : Note.s
-
-# target to generate assembly for a file
-Note.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\core.dir\build.make CMakeFiles/core.dir/Note.cpp.s
-.PHONY : Note.cpp.s
-
 NotesCollection.obj: NotesCollection.cpp.obj
 
 .PHONY : NotesCollection.obj
@@ -422,9 +395,6 @@ help:
 	@echo ... ConcreteObserver.obj
 	@echo ... ConcreteObserver.i
 	@echo ... ConcreteObserver.s
-	@echo ... Note.obj
-	@echo ... Note.i
-	@echo ... Note.s
 	@echo ... NotesCollection.obj
 	@echo ... NotesCollection.i
 	@echo ... NotesCollection.s

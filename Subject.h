@@ -9,11 +9,11 @@
 #include "algorithm"
 #include "Observer.h"
 
-class subject{
+class Subject{
 public:
-    virtual ~subject()=default;
+    virtual ~Subject()=default;
     virtual void subscribe(Observer* onew)=0;
-    virtual void unsubsribe(Observer* old)=0;
+    virtual void unsubscribe(Observer* old)=0;
     virtual void notify()=0;
 protected:
     std::list<Observer*> observers;

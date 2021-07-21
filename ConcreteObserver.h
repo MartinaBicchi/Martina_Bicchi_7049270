@@ -13,7 +13,7 @@ public:
         subject->subscribe(this);
     };
     ~ConcreteObserver(){
-        subject->unsubsribe(this);
+        subject->unsubscribe(this);
     }
     void update() override;
 

@@ -8,14 +8,17 @@ void NotesCollectionSpecific::addNote(Note* note) {
     notes.insert(std::make_pair(note->getTitle(),note));
     notify();
 }
-void NotesCollectionSpecific::removeNote(const std::string& n){
-    auto remove=notes.find(n);
-    if(!remove->second->isLocked()) {
-        notes.erase(remove);
-        notify();
+void NotesCollectionSpecific::removeNote(const std::string& n) {
+    auto remove = notes.find(n);
+    if (remove != notes.end()) {
+        if (!remove->second->isLocked()) {
+            notes.erase(remove);
+            notify();
+        } else
+            throw std::runtime_error{"non è possibile rimuovere dalla lista delle note la nota inserita in quanto si tratta di una nota con la cancellazione bloccata"};
     }
     else
-        std::cout<<"Non è possibile rimuovere dalla lista di note"<<name<<" la nota "<<n<<"in quanto ha la cancellazione bloccata"<<std::endl;
+        throw std::runtime_error{"Non è possibile rimuovere la nota inserita in quanto non è presente"};
 }
 
 int NotesCollectionSpecific::NotesNumber() {
