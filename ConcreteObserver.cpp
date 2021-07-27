@@ -12,7 +12,7 @@ void ConcreteObserver::update() {
         if(itr.second->isLocked())
             count++;
     }
-    std::cout<<"Dopo la modifica nella collezione "<<subject->getName()<<" ci sono:"<<count<<"note bloccate"<<std::endl;
+    std::cout<<"Dopo la modifica nella collezione "<<subject->getName()<<" ci sono:"<<count<<" note bloccate"<<std::endl;
 }
 
 NotesCollection *ConcreteObserver::getSubject() const {

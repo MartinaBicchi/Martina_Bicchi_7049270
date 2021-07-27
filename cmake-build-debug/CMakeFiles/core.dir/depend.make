@@ -8,9 +8,6 @@ CMakeFiles/core.dir/ConcreteObserver.cpp.obj: ../NotesCollection.h
 CMakeFiles/core.dir/ConcreteObserver.cpp.obj: ../Observer.h
 CMakeFiles/core.dir/ConcreteObserver.cpp.obj: ../Subject.h
 
-CMakeFiles/core.dir/Note.cpp.obj: ../Note.cpp
-CMakeFiles/core.dir/Note.cpp.obj: ../Note.h
-
 CMakeFiles/core.dir/NotesCollection.cpp.obj: ../Note.h
 CMakeFiles/core.dir/NotesCollection.cpp.obj: ../NotesCollection.cpp
 CMakeFiles/core.dir/NotesCollection.cpp.obj: ../NotesCollection.h

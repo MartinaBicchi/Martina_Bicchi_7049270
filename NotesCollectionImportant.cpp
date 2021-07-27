@@ -3,7 +3,7 @@
 //
 
 #include "NotesCollectionImportant.h"
-#include <exception>
+
 void NotesCollectionImportant::addNote(Note* note){
     if(note->isImportant1()) {
         notes.insert(std::make_pair(note->getTitle(), note));

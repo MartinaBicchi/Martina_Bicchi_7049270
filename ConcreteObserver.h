@@ -12,7 +12,7 @@ public:
     explicit ConcreteObserver(NotesCollection* n): subject(n){
         subject->subscribe(this);
     };
-    ~ConcreteObserver(){
+    ~ConcreteObserver() override{
         subject->unsubscribe(this);
     }
     void update() override;

@@ -103,6 +103,34 @@ int main() {
         collection1=new NotesCollectionSpecific(nomecollection);
     else
         collection1=new NotesCollectionImportant(nomecollection);
+
+    std::cout<<"Blocco la cancellazione della nota numero 2"<<std::endl;
+    nota2->setLocked(true);
+
+    std::string numeronota;
+    std::cout<<"Inserire il numero della nota che si vuole rimuovere (prima/seconda/terza)"<<std::endl;
+    getline(std::cin,numeronota);
+
+
+    try {
+        if (numeronota == "prima") {
+            collection1->removeNote(nota1->getTitle());
+            std::cout << "Rimossa nota numero uno" << std::endl;
+            std::cout << std::endl;
+        } else if (numeronota == "seconda") {
+            collection1->removeNote(nota2->getTitle());
+            std::cout << "Rimossa nota numero due" << std::endl;
+            std::cout << std::endl;
+        } else if (numeronota == "terza") {
+            collection1->removeNote(nota3->getTitle());
+            std::cout << "Rimossa nota numero tre" << std::endl;
+            std::cout << std::endl;
+        }
+    }
+    catch(std::runtime_error& e){
+        std::cerr<<e.what()<<std::endl;
+    }
+
 try {
     collection1->addNote(nota1);
     collection1->addNote(nota2);
@@ -152,8 +180,10 @@ try {
         std::cerr<<e.what()<<std::endl;
     }
 
+    std::cout<<"Viene bloccata la cancellazione della nota numero 4"<<std::endl;
     nota4->setLocked(true);
 
+    std::cout<<"Provo a rimuovere la nota numero 4 che ha la cancellazione bloccata"<<std::endl;
     try{
     collection1->removeNote(nota4->getTitle());}
     catch(std::runtime_error& e){
@@ -165,21 +195,6 @@ try {
         std::cerr<<e.what()<<std::endl;
     }
 
-    std::string numeronota;
-    std::cout<<"Inserire il numero della nota che si vuole rimuovere (prima/seconda/terza/quarta)"<<std::endl;
-    getline(std::cin,numeronota);
-try {
-    if (numeronota == "prima")
-        collection1->removeNote(nota1->getTitle());
-    else if (numeronota == "seconda")
-        collection1->removeNote(nota2->getTitle());
-    else if (numeronota == "terza")
-        collection1->removeNote(nota3->getTitle());
-    else if (numeronota == "quarta")
-        collection1->removeNote(nota4->getTitle());
-}catch(std::runtime_error& e){
-    std::cerr<<e.what()<<std::endl;
-}
 
     return 0;
 }
